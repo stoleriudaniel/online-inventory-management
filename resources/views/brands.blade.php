@@ -18,15 +18,14 @@
         </div>
         <div class="main">
             <div class="card">
-                    <div class="card-container">
-                        <h1>Brands</h1>
-                        <div class="option-add">
-                            <button>Add</button>
-                        </div>
-                        <div class="option-search">
-                            <input type="text" placeholder="">
-                            <button>search</button>
-                        </div>
+                <div class="card-container">
+                    <h1>Brands</h1>
+                    <hr>
+                    <button class="option-add">Add</button>
+                    <div>
+                        <input class="search-input" type="text" placeholder="">
+                        <button class="option-search">Search</button>
+                    </div>
                         <div>
                         <table>
                             <tr>
@@ -41,8 +40,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>
@@ -52,8 +51,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>
@@ -63,8 +62,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>
@@ -74,8 +73,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>
@@ -85,8 +84,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>
@@ -96,8 +95,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>
@@ -107,8 +106,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>
@@ -118,8 +117,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>
@@ -129,8 +128,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>
@@ -140,8 +139,8 @@
                                 <td>2022</td>
                                 <td>
                                     <div class="options-update-delete">
-                                        <button>Update</button>
-                                        <button>Delete</button>
+                                        <button class="option-update">Update</button>
+                                        <button class="option-delete">Delete</button>
                                     </div>
                                 </td>
                             </tr>

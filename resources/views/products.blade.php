@@ -26,7 +26,7 @@
                     <hr>
                     <button class="option-add">Add</button>
                     <div>
-                        <input type="text" placeholder="">
+                        <input class="search-input" type="text" placeholder="">
                         <button class="option-search">Search</button>
                     </div>
                     <div>
