@@ -26,7 +26,11 @@ Route::get('/brands', function () {
 });
 
 Route::get('/products', function () {
-    return view('brands');
+    return view('products');
+});
+
+Route::get('/products/add', function () {
+    return view('add-product');
 });
 
 Route::get('/orders', function () {
