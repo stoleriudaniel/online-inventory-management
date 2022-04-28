@@ -1,0 +1,108 @@
+html {
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  }
+  
+  body {
+    margin: 0;
+    font-size: 0.8rem;
+    font-weight: 400; 
+    line-height: 1.5;
+    color: #858796;
+    text-align: left;
+    background-color: #fff;
+  }
+  
+  .sidetop {
+      height: 100px;
+      background-color: blueviolet;
+  }
+  .sidenav {
+      height: 100%;
+      width: 200px;
+      position: fixed;
+      z-index: 1;
+      top: 100px;
+      left: 0;
+      background-color: #1a1d1f;
+      overflow-x: hidden;
+      padding-top: 20px;
+  }
+  
+  .sidenav a {
+      padding: 6px 8px 6px 16px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #818181;
+      display: block;
+  }
+  
+  .sidenav a:hover {
+      background-color: blue;
+  }
+    
+  .active {
+      background-color: #04AA6D;
+  }
+  
+  .main{
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 100px;
+  }
+  
+.card {
+    background-color: blue;
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-container {
+    padding: 20px 20px;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: blue;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+td {
+    background-color: white;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.option-add{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.option-search{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.options-update-delete {
+
+}
+
+.option-update {
+
+}
+
+.option-delete {
+    
+}
