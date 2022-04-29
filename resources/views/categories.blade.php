@@ -21,7 +21,7 @@
                 <div class="card-container">
                 <h1>Categories</h1>
                     <hr>
-                    <button class="option-add">Add</button>
+                    <a class="add-btn" href="#">Add</a>
                     <div>
                         <input class="search-input" type="text" placeholder="">
                         <button class="option-search">Search</button>
