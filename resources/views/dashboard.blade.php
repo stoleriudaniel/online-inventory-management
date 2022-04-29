@@ -40,7 +40,7 @@
                                 <p>0</p>
                             </div>
                             <div class="dashboard-card-title">
-                                <p>Categories</p>
+                                <p>Brands</p>
                             </div>
                             <hr class="bottom-dashboard-card-bar">
                             <div class="bottom-dashboard-card-link">
@@ -53,7 +53,7 @@
                                 <p>0</p>
                             </div>
                             <div class="dashboard-card-title">
-                                <p>Categories</p>
+                                <p>Products</p>
                             </div>
                             <hr class="bottom-dashboard-card-bar">
                             <div class="bottom-dashboard-card-link">
@@ -66,7 +66,7 @@
                                 <p>0</p>
                             </div>
                             <div class="dashboard-card-title">
-                                <p>Categories</p>
+                                <p>Orders</p>
                             </div>
                             <hr class="bottom-dashboard-card-bar">
                             <div class="bottom-dashboard-card-link">
