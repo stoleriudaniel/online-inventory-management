@@ -24,10 +24,14 @@
                 <div class="card-container">
                     <h1>Products</h1>
                     <hr class="card-hr">
-                    <a class="add-btn" href="/products/add">Add</a>
-                    <div>
-                        <input class="search-input" type="text" placeholder="">
-                        <button class="option-search">Search</button>
+                    <div class="row">
+                        <div class="col-10">
+                            <a class="add-btn option-add" href="#">Add</a>
+                        </div>
+                        <div class="col-90">
+                            <input class="search-input" type="text" placeholder="">
+                            <button class="option-search">Search</button>
+                        </div>
                     </div>
                     <div>
                     <table>
