@@ -1,8 +1,5 @@
 html {
     font-family: sans-serif;
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   }
   
   body {
@@ -94,7 +91,7 @@ html {
 }
 
 .card-container {
-    padding: 20px 20px 20px 20px;
+    padding: 0px 20px 20px 20px;
 }
 
 
@@ -200,7 +197,7 @@ tr:nth-child(even) {
 }
 
 .add-label {
-  padding: 2px 12px 12px 0;
+  padding: 10px 12px 12px 0;
   display: inline-block;
 }
 
@@ -210,11 +207,21 @@ tr:nth-child(even) {
   margin-top: 8px;
 }
 
-
+.col-30 {
+  float: left;
+  width: 5%;
+  margin-top: 8px;
+}
 
 .col-75 {
   float: left;
   width: 35%;
+  margin-top: 8px;
+}
+
+.col-70 {
+  float: left;
+  width: 5%;
   margin-top: 8px;
 }
 
@@ -257,4 +264,58 @@ tr:nth-child(even) {
   cursor: pointer;
   width: 70px;
   height: 50px;
+}
+
+.dashboard-card{
+  line-height: 0;
+  border: 2px solid;
+  border-radius: 8px;
+  box-sizing: border-box;
+  width: 21.25%;
+  height: 150px;
+}
+
+.categories-dashboard-card {
+  background-color: green;
+  color: white;
+}
+
+.brands-dashboard-card {
+  background-color: yellow;
+  color: white;
+}
+
+.products-dashboard-card {
+  background-color: brown;
+  color: white;
+}
+
+.orders-dashboard-card {
+  background-color: violet;
+  color: white;
+}
+
+.dashboard-card-number {
+  margin-top: 40px;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+.dashboard-card-title {
+  margin-top: 46px;
+  margin-left: 20px;
+}
+
+.card-hr {
+  margin-top: 10px;
+  margin-bottom: 52px;
+}
+
+.bottom-dashboard-card-link{
+  margin-left: 20px;
+  margin-bottom: 2p;
+}
+.bottom-dashboard-card-bar{
+  background-color: white;
+  height: 2px;
 }
