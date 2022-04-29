@@ -14,14 +14,14 @@ html {
 
   .sidetop {
       top: 0;
-      height: 70px;
+      height: 75px;
       width: 100%;
-      background-color: blue;
+      background-color: #2755b0;
       position:sticky;
   }
   .sidenav {
     font-size: 80px;
-    margin-top: 70px;
+    margin-top: 75px;
     height: 100%;
     width: 150px;
     position: fixed;
@@ -60,12 +60,6 @@ html {
     /* padding: 0px 10px; */
   }
   
-  /* Add an active class to the active dropdown button */
-  .active {
-    background-color: green;
-    color: white;
-  }
-  
   /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
   .dropdown-container {
     display: none;
@@ -90,7 +84,7 @@ html {
     transition: 0.3s;
     width: 100%;
     border-radius: 20px;
-    padding: 20px 20px 20px 20px;
+    padding: 2px 20px 20px 20px;
 }
 
 .card-container {
@@ -105,7 +99,7 @@ table {
 }
 
 th {
-    background-color: blue;
+    background-color: #4da6ff;
     border: 1px solid #dddddd;
     color:white;
     text-align: left;
@@ -129,13 +123,8 @@ tr:nth-child(even) {
     margin-bottom: 30px;
 }
 
-.option-search{
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
 .option-update {
-    background-color: blue;
+    background-color: #4da6ff;
     border: none;
     color: white;
     padding: 10px;
@@ -149,7 +138,7 @@ tr:nth-child(even) {
 }
 
 .option-delete {
-    background-color: red;
+    background-color: #ff471a;
     border: none;
     color: white;
     padding: 10px;
@@ -163,7 +152,7 @@ tr:nth-child(even) {
 }
 
 .option-add {
-    background-color: green;
+    background-color: black;
     border: none;
     color: white;
     text-align: center;
@@ -176,6 +165,8 @@ tr:nth-child(even) {
 }
 
 .option-search {
+    margin-top: 0px;
+    margin-bottom: 10px;
     background-color: #737170;
     border: none;
     color: white;
@@ -185,14 +176,14 @@ tr:nth-child(even) {
     border-radius: 8px;
     display: inline-block;
     font-size: 16px;
-    margin: 30px 0px 20px 0px;
+    margin: 0px 0px 20px 0px;
     cursor: pointer;
 }
 
 .search-input {
-    width: 300px;
-    padding: 4px 4px;
-    margin: 8px 0;
+    width: 70%;
+    padding: 4px 4px 4px 4px;
+    margin: 8px 8px 8px 8px;
     box-sizing: border-box;
     border: 1px solid #555;
     outline: none;
@@ -228,6 +219,18 @@ tr:nth-child(even) {
   margin-top: 8px;
 }
 
+.col-10 {
+  float: left;
+  width: 65%;
+  margin-top: 8px;
+}
+
+.col-90 {
+  float: left;
+  width: 35%;
+  margin-top: 8px;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
@@ -254,7 +257,7 @@ tr:nth-child(even) {
 }
 
 .add-btn{
-  background-color: green;
+  background-color: #33b537;
   border: 1px;
   color: white;
   text-align: center;
@@ -263,7 +266,7 @@ tr:nth-child(even) {
   display:block;
   line-height: 50px;
   font-size: 20px;
-  margin: 40px 0px 40px 0px;
+  margin: 0px 0px 40px 0px;
   cursor: pointer;
   width: 70px;
   height: 50px;
