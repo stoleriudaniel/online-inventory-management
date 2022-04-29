@@ -22,7 +22,7 @@
             <div class="card">
                 <div class="card-container" style="margin-left:25px;">
                     <h1>Add Product</h1>
-                    <hr style="margin-bottom:40px;">
+                    <hr class="card-hr" style="margin-bottom:40px;">
                     <div class="row">
                         <div class="col-25">
                             <label class="add-label" for="fname">Product ID:</label>

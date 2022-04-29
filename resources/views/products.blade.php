@@ -23,7 +23,7 @@
             <div class="card">
                 <div class="card-container">
                     <h1>Products</h1>
-                    <hr>
+                    <hr class="card-hr">
                     <a class="add-btn" href="/products/add">Add</a>
                     <div>
                         <input class="search-input" type="text" placeholder="">
