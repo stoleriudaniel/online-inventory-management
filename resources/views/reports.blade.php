@@ -6,7 +6,12 @@
     </head>
     <body>
         <div class="sidetop">
-            
+            <div class="title">
+            <h1>Meyer's Inventory System</h1>
+            </div>
+            <span class="admin-logged">
+                <h1>Welcome, Roland Mendel (Logout)</h1>
+            </span>
         </div>
         <div class="sidenav">
             <a href="/">Dashboard</a>

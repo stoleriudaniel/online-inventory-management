@@ -5,7 +5,12 @@
     </head>
     <body>
         <div class="sidetop">
-            
+            <div class="title">
+            <h1>Meyer's Inventory System</h1>
+            </div>
+            <span class="admin-logged">
+                <h1>Welcome, Roland Mendel (Logout)</h1>
+            </span>
         </div>
         <div class="sidenav">
             <a href="/">Dashboard</a>
@@ -39,9 +44,9 @@
                             <th>Action</th>
                         </tr>
                         <tr>
-                            <td>Alfreds Futterkiste</td>
+                            <td>T-shirts</td>
                             <td>Maria Anders</td>
-                            <td>2022</td>
+                            <td>27 February 2022</td>
                             <td>
                                 <div class="options-update-delete">
                                     <button class="option-update">Update</button>
@@ -50,9 +55,9 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Centro comercial Moctezuma</td>
+                            <td>Sneakers</td>
                             <td>Francisco Chang</td>
-                            <td>2022</td>
+                            <td>27 February 2022</td>
                             <td>
                                 <div class="options-update-delete">
                                     <button class="option-update">Update</button>
@@ -61,9 +66,9 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Ernst Handel</td>
+                            <td>Dresses</td>
                             <td>Roland Mendel</td>
-                            <td>2022</td>
+                            <td>25 February 2022</td>
                             <td>
                                 <div class="options-update-delete">
                                     <button class="option-update">Update</button>
@@ -72,75 +77,9 @@
                             </td>
                         </tr>
                         <tr>
-                            <td>Island Trading</td>
+                            <td>Sweatshirts</td>
                             <td>Helen Bennett</td>
-                            <td>2022</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Island Trading</td>
-                            <td>Helen Bennett</td>
-                            <td>2022</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Island Trading</td>
-                            <td>Helen Bennett</td>
-                            <td>2022</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Island Trading</td>
-                            <td>Helen Bennett</td>
-                            <td>2022</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Island Trading</td>
-                            <td>Helen Bennett</td>
-                            <td>2022</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Island Trading</td>
-                            <td>Helen Bennett</td>
-                            <td>2022</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Island Trading</td>
-                            <td>Helen Bennett</td>
-                            <td>2022</td>
+                            <td>24 February 2022</td>
                             <td>
                                 <div class="options-update-delete">
                                     <button class="option-update">Update</button>

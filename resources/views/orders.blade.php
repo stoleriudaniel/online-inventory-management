@@ -5,7 +5,12 @@
     </head>
     <body>
         <div class="sidetop">
-            
+            <div class="title">
+            <h1>Meyer's Inventory System</h1>
+            </div>
+            <span class="admin-logged">
+                <h1>Welcome, Roland Mendel (Logout)</h1>
+            </span>
         </div>
         <div class="sidenav">
             <a href="/">Dashboard</a>
@@ -28,6 +33,7 @@
                                 <th>Bill No</th>
                                 <th>Customer Name</th>
                                 <th>Customer Adress</th>
+                                <th>ID Product</th>
                                 <th>Quantity</th>
                                 <th>Total Amount</th>
                                 <th>Action</th>
@@ -36,8 +42,9 @@
                                 <td>BLPR-E333</td>
                                 <td>Alfreds Futterkiste</td>
                                 <td>Germany, Frankfurt am Main, Am Ginnheimer, M432</td>
-                                <td>8</td>
-                                <td>320</td>
+                                <td>13</td>
+                                <td>7</td>
+                                <td>420€</td>
                                 <td>
                                     <div class="options-update-delete">
                                         <button class="option-update">Update</button>

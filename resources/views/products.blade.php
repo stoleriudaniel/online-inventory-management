@@ -8,7 +8,12 @@
 
     <body>
         <div class="sidetop">
-            
+            <div class="title">
+            <h1>Meyer's Inventory System</h1>
+            </div>
+            <span class="admin-logged">
+                <h1>Welcome, Roland Mendel (Logout)</h1>
+            </span>
         </div>
         <div class="sidenav">
             <a href="/">Dashboard</a>
@@ -54,7 +59,7 @@
                             <td>Black</td>
                             <td>39</td>
                             <td>Male</td>
-                            <td>12</td>
+                            <td>5</td>
                             <td>
                                 <div class="options-update-delete">
                                     <button class="option-update">Update</button>
@@ -68,9 +73,9 @@
                             <td>Nike</td>
                             <td>Sneakers</td>
                             <td>Black</td>
-                            <td>39</td>
+                            <td>37</td>
                             <td>Male</td>
-                            <td>12</td>
+                            <td>4</td>
                             <td>
                                 <div class="options-update-delete">
                                     <button class="option-update">Update</button>
@@ -80,127 +85,15 @@
                         </tr>
                         <tr>
                             <td>3</td>
-                            <td>Nike Air</td>
+                            <td>Nike Air Force 1</td>
                             <td>Nike</td>
                             <td>Sneakers</td>
                             <td>Black</td>
-                            <td>39</td>
-                            <td>Male</td>
-                            <td>12</td>
-                            <td>
-                            <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>4</td>
-                            <td>Nike Air</td>
-                            <td>Nike</td>
-                            <td>Sneakers</td>
-                            <td>Black</td>
-                            <td>39</td>
-                            <td>Male</td>
-                            <td>12</td>
-                            <td>
-                            <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
+                            <td>36</td>
+                            <td>Female</td>
                             <td>5</td>
-                            <td>Nike Air</td>
-                            <td>Nike</td>
-                            <td>Sneakers</td>
-                            <td>Black</td>
-                            <td>39</td>
-                            <td>Male</td>
-                            <td>12</td>
                             <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>6</td>
-                            <td>Nike Air</td>
-                            <td>Nike</td>
-                            <td>Sneakers</td>
-                            <td>Black</td>
-                            <td>39</td>
-                            <td>Male</td>
-                            <td>12</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>7</td>
-                            <td>Nike Air</td>
-                            <td>Nike</td>
-                            <td>Sneakers</td>
-                            <td>Black</td>
-                            <td>39</td>
-                            <td>Male</td>
-                            <td>12</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>8</td>
-                            <td>Nike Air</td>
-                            <td>Nike</td>
-                            <td>Sneakers</td>
-                            <td>Black</td>
-                            <td>39</td>
-                            <td>Male</td>
-                            <td>12</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>9</td>
-                            <td>Nike Air</td>
-                            <td>Nike</td>
-                            <td>Sneakers</td>
-                            <td>Black</td>
-                            <td>39</td>
-                            <td>Male</td>
-                            <td>12</td>
-                            <td>
-                                <div class="options-update-delete">
-                                    <button class="option-update">Update</button>
-                                    <button class="option-delete">Delete</button>
-                                </div>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>10</td>
-                            <td>Nike Air</td>
-                            <td>Nike</td>
-                            <td>Sneakers</td>
-                            <td>Black</td>
-                            <td>39</td>
-                            <td>Male</td>
-                            <td>12</td>
-                            <td>
-                                <div class="options-update-delete">
+                            <div class="options-update-delete">
                                     <button class="option-update">Update</button>
                                     <button class="option-delete">Delete</button>
                                 </div>
