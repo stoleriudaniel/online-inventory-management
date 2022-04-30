@@ -18,7 +18,23 @@ html {
       width: 100%;
       background-color: #2755b0;
       position:sticky;
+      padding: 0.1px;
   }
+
+  .title {
+    color: white;
+    margin-left: 20px;
+    float: left;
+  }
+
+  .admin-logged {
+    color: white;
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-size: 10px;
+  }
+
   .sidenav {
     font-size: 80px;
     margin-top: 75px;
@@ -282,22 +298,22 @@ tr:nth-child(even) {
 }
 
 .categories-dashboard-card {
-  background-color: green;
+  background-color: #3c8f56;
   color: white;
 }
 
 .brands-dashboard-card {
-  background-color: orange;
+  background-color: #74bffc;
   color: white;
 }
 
 .products-dashboard-card {
-  background-color: brown;
+  background-color: #963333;
   color: white;
 }
 
 .orders-dashboard-card {
-  background-color: violet;
+  background-color: #dea0da;
   color: white;
 }
 
