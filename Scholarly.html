@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Online Inventory Management IEEE Requirements Specification Template
+        </title> 
+    </head>
+    <body>
+        <header>
+            <h1>Online Inventory Management</h1>
+            <p>IEEE Requirements Specification</p>
+        </header>
+    </body>
+    <section>
+        <h2>Authors</h2>
+        <ul>
+            <li>Stoleriu Daniel</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Introduction</h2>
+        <section>
+            <h3>Purpose</h3>
+            <p>
+                The aim of this system requirements specification document is to
+                provide an in-depth description of the tool Meyer's Inventory System. This document will explain the features and the purpose
+                of this software.
+            </p>
+        </section>
+        <section>
+            <h3>Product Scope</h3>
+            <p>
+              Meyer's Inventory System is a website that allows admins to manage (delete / update / add) inventory products, 
+              brands, categories. This tool allows admins to visualize these data in table form.
+            </p>
+        </section>
+    </section>
+    <section>
+        <h3>References</h3>
+        <ol>
+            <li>
+              <a href="https://github.com/stoleriudaniel/online-inventory-management">
+                GitHub page
+              </a>
+            </li>
+            <li>
+              <a href="https://w3c.github.io/scholarly-html/">
+                Scholarly HTML
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/rick4470/IEEE-SRS-Tempate">
+                IEEE System Requirements Specification Template
+              </a>
+            </li>
+        </ol>
+    </section>
+    <section>
+        <h2>Overall Description</h2>
+        <section>
+            <h3>Product Perspective</h3>
+            <p>
+                Meyer's Inventory System is a website that offers data about products, brands, category, orders.
+                Admins can manage these data. These data can be visualized as tables.
+            </p>    
+        </section>
+    </section>
+    <section>
+        <h3>Product Functions</h3>
+        <ul>
+            <li>
+                <p>
+                    Dashboard page
+                </p>
+                <ul>
+                    <li>Provides dashboard cards for every table of data (categories, brands, products, orders).</li>
+                    <li>Every dashboard cards contains a title and the number of table rows corresponding to that title.</li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Login page
+                </p>
+                <ul>
+                    <li>Allow admins only to log in.</li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Categories page
+                </p>
+                <ul>
+                    <li>Allow admins to visualize data in table form.</li>
+                    <li>Allow admins to update, add, delete a category.</li>
+                    <li>Every row of category table has a title, added by, added on and actions(update / delete).</li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Brands page
+                </p>
+                <ul>
+                    <li>Allow admins to visualize data in table form.</li>
+                    <li>Allow admins to update, add, delete a brand.</li>
+                    <li>Every row of brands table has a title, added by, added on and actions(update / delete).</li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Products page
+                </p>
+                <ul>
+                    <li>Allow admins to visualize data in table form.</li>
+                    <li>Allow admins to update, add, delete a product.</li>
+                    <li>Every row of products table has an id, name, brand, category, color, size, genre, quantuty and actions(update / delete).</li>
+                </ul>
+            </li>
+            <li>
+                <p>
+                    Orders page
+                </p>
+                <ul>
+                    <li>Allow admins to visualize orders in table form.</li>
+                    <li>Allow admins to update, add, delete a product.</li>
+                    <li>Every order has a bill no, customer name, customer adress, id product, quantity, total amount (in euros), actions</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section>
+        <h3>User Classes and Characteristics</h3>
+        <ul>
+            <li>The website is forbidden for regular users.</li>
+            <li>Admins must be logged in to be able to manage the inventory.</li>
+        </ul>
+    </section>
+    <section>
+        <h3>Operating Environment</h3>
+        <p>
+            This website can be hosted on any kind of operating system that can
+            run PHP, Laravel: Unix-like operating systems, Windows and macOS.
+        </p>
+    </section>
+    <section>
+        <h3>Design and Implementation Constraints</h3>
+        <p>This software is developed using PHP, Laravel, HTML and CSS.</p>
+    </section>
+    <section>
+        <h3>Assumptions and Dependencies</h3>
+        <p>
+          The site depends on PHP 8 and a web server such as Apache or nginx.
+        </p>
+    </section>
+    <section>
+        <h2>External Interface Requirements</h2>
+        <section>
+            <h3>User interfaces</h3>
+            <ul>
+                <li>
+                    <p>Login page</p>
+                    <img src="screenshots/login.jpg" width="1200px;" alt="Login page">
+                </li>
+                </div>
+                <li>
+                    <p>Dashboard page</p>
+                    <img src="screenshots/dashboard.jpg" width="1200px;" alt="Dashboard page">
+                </li>
+                <li>
+                    <p>Category page</p>
+                    <img src="screenshots/categories.jpg" width="1200px;" alt="Category page">
+                </li>
+                <li>
+                    <p>Brands page</p>
+                    <img src="screenshots/brands.jpg" width="1200px;" alt="Brands page">
+                </li>
+                <li>
+                    <p>Products page</p>
+                    <img src="screenshots/products.jpg" width="1200px;" alt="Products page">
+                </li>
+                <li>
+                    <p>Add Product page</p>
+                    <img src="screenshots/products-add.jpg" width="1200px;" alt="Products page">
+                </li>
+                <li>
+                    <p>Orders page</p>
+                    <img src="screenshots/orders.jpg" width="1200px;" alt="Orders page">
+                </li>
+            </ul>
+        </section>
+    </section>
+    <section>
+        <h3>Software Interfaces</h3>
+        <p>
+            This tool requires on the server side PHP 8, Laravel.
+        </p>
+    </section>
+</html>
